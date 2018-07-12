@@ -87,6 +87,15 @@ debug=true
       <td>
         Include the host's Google Cloud meta-data as tags (instance-id, machine-type, preemptible, project-id, region, and zone)
         <p class="Docs__api-param-eg"><em>Default:</em> <code>false</code></p>
+        <p class="Docs__api-param-eg"><em>Environment variable:</em> <code>BUILDKITE_AGENT_TAGS_FROM_HOST</code></p>
+      </td>
+    </tr>
+
+    <tr>
+      <th><code>tags-from-host</code></th>
+      <td>
+        Include the host's meta-data as tags (`hostname`, `machine-id`, `os`)
+        <p class="Docs__api-param-eg"><em>Default:</em> <code>false</code></p>
         <p class="Docs__api-param-eg"><em>Environment variable:</em> <code>BUILDKITE_AGENT_TAGS_FROM_GCP</code></p>
       </td>
     </tr>
